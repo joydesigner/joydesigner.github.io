@@ -1,4 +1,3 @@
-connect
-=======
+Word Cloud - Demo Version
 
-ec2-wda
+
