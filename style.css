@@ -1,0 +1,23 @@
+﻿.text-size span {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.text-size {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    color: #3b3737;
+}
+
+#wc {
+    border: 1px solid #dcdcdc;
+}
+
+.top-padding {
+    padding: 20px;
+}
+
