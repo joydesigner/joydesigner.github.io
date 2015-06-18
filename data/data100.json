@@ -1,404 +1,402 @@
-﻿
-[
-      {
-        "text": "Alfredo Boehm",
-        "frequency": 101
-      },
-      {
-        "text": "Jazlyn Becker",
-        "frequency": 98
-      },
-      {
-        "text": "Leilani Konopelski",
-        "frequency": 306
-      },
-      {
-        "text": "Curtis Heaney",
-        "frequency": 200
-      },
-      {
-        "text": "Pierce Donnelly",
-        "frequency": 555
-      },
-      {
-        "text": "Meagan Kerluke",
-        "frequency": 165
-      },
-      {
-        "text": "Mrs. Wilburn Oberbrunner",
-        "frequency": 351
-      },
-      {
-        "text": "Robin O'Connell",
-        "frequency": 289
-      },
-      {
-        "text": "Elmo Stiedemann DDS",
-        "frequency": 780
-      },
-      {
-        "text": "Dr. Jarrod McClure",
-        "frequency": 80
-      },
-      {
-        "text": "Genevieve Windler",
-        "frequency": 768
-      },
-      {
-        "text": "Garrick Klein",
-        "frequency": 87
-      },
-      {
-        "text": "Yvette Swaniawski",
-        "frequency": 9
-      },
-      {
-        "text": "Xzavier Zboncak",
-        "frequency": 520
-      },
-      {
-        "text": "Cleve Walter MD",
-        "frequency": 926
-      },
-      {
-        "text": "Ariane Kohler",
-        "frequency": 569
-      },
-      {
-        "text": "Freda Schinner",
-        "frequency": 424
-      },
-      {
-        "text": "Destini Metz",
-        "frequency": 643
-      },
-      {
-        "text": "Christa Hauck",
-        "frequency": 528
-      },
-      {
-        "text": "Alayna Dach",
-        "frequency": 697
-      },
-      {
-        "text": "Elouise Langosh",
-        "frequency": 392
-      },
-      {
-        "text": "Shaina Wyman",
-        "frequency": 623
-      },
-      {
-        "text": "Deon Graham",
-        "frequency": 895
-      },
-      {
-        "text": "Dale Mann",
-        "frequency": 719
-      },
-      {
-        "text": "Marcelino Hayes Jr.",
-        "frequency": 125
-      },
-      {
-        "text": "Elian Stamm",
-        "frequency": 450
-      },
-      {
-        "text": "Judge Pfeffer",
-        "frequency": 922
-      },
-      {
-        "text": "Chauncey McLaughlin",
-        "frequency": 902
-      },
-      {
-        "text": "Ova Nikolaus",
-        "frequency": 29
-      },
-      {
-        "text": "Braxton Runolfsson",
-        "frequency": 236
-      },
-      {
-        "text": "Forest Rath",
-        "frequency": 359
-      },
-      {
-        "text": "Maudie Anderson",
-        "frequency": 855
-      },
-      {
-        "text": "Tre Boehm",
-        "frequency": 438
-      },
-      {
-        "text": "Keara Brakus",
-        "frequency": 234
-      },
-      {
-        "text": "Janis Balistreri MD",
-        "frequency": 649
-      },
-      {
-        "text": "Kraig Bashirian",
-        "frequency": 507
-      },
-      {
-        "text": "Dr. Krystel Willms",
-        "frequency": 593
-      },
-      {
-        "text": "Nathan Lowe III",
-        "frequency": 953
-      },
-      {
-        "text": "Zita Jerde",
-        "frequency": 555
-      },
-      {
-        "text": "Melody Bartell",
-        "frequency": 230
-      },
-      {
-        "text": "Vern Shields",
-        "frequency": 404
-      },
-      {
-        "text": "Haskell Koss",
-        "frequency": 752
-      },
-      {
-        "text": "Stanley Crooks",
-        "frequency": 70
-      },
-      {
-        "text": "Miss Brando Heaney",
-        "frequency": 684
-      },
-      {
-        "text": "Tiffany Legros",
-        "frequency": 731
-      },
-      {
-        "text": "Billy Feest",
-        "frequency": 639
-      },
-      {
-        "text": "London Prosacco",
-        "frequency": 919
-      },
-      {
-        "text": "Miss Henriette VonRueden",
-        "frequency": 796
-      },
-      {
-        "text": "Keith Green",
-        "frequency": 130
-      },
-      {
-        "text": "Ms. Georgianna Lindgren",
-        "frequency": 211
-      },
-      {
-        "text": "Mrs. Rahul Johnson",
-        "frequency": 322
-      },
-      {
-        "text": "Miss Derick Treutel",
-        "frequency": 159
-      },
-      {
-        "text": "Reta Kunze",
-        "frequency": 640
-      },
-      {
-        "text": "Simeon Schowalter",
-        "frequency": 540
-      },
-      {
-        "text": "Wyatt Stiedemann Jr.",
-        "frequency": 667
-      },
-      {
-        "text": "Kayli Oberbrunner",
-        "frequency": 524
-      },
-      {
-        "text": "David Beier",
-        "frequency": 699
-      },
-      {
-        "text": "Ofelia Feest",
-        "frequency": 272
-      },
-      {
-        "text": "Aida Zulauf",
-        "frequency": 201
-      },
-      {
-        "text": "Mr. Nat Ferry",
-        "frequency": 604
-      },
-      {
-        "text": "Zion Wiegand",
-        "frequency": 793
-      },
-      {
-        "text": "Alda Gulgowski",
-        "frequency": 323
-      },
-      {
-        "text": "Dr. Maribel Wiza",
-        "frequency": 82
-      },
-      {
-        "text": "Rico O'Reilly DVM",
-        "frequency": 5
-      },
-      {
-        "text": "Gus Hintz Sr.",
-        "frequency": 503
-      },
-      {
-        "text": "Kendall Koss PhD",
-        "frequency": 503
-      },
-      {
-        "text": "Gardner O'Kon",
-        "frequency": 579
-      },
-      {
-        "text": "Shanelle Kulas",
-        "frequency": 973
-      },
-      {
-        "text": "Tristin Will Jr.",
-        "frequency": 604
-      },
-      {
-        "text": "Miss Toni Blanda",
-        "frequency": 49
-      },
-      {
-        "text": "Merlin Rutherford",
-        "frequency": 841
-      },
-      {
-        "text": "Kraig Gerhold",
-        "frequency": 567
-      },
-      {
-        "text": "Adelle Spencer",
-        "frequency": 364
-      },
-      {
-        "text": "Edgardo Fisher",
-        "frequency": 985
-      },
-      {
-        "text": "Dr. Helena Rogahn",
-        "frequency": 357
-      },
-      {
-        "text": "Vaughn Waelchi",
-        "frequency": 716
-      },
-      {
-        "text": "Janiya Stoltenberg",
-        "frequency": 710
-      },
-      {
-        "text": "Desmond Waters",
-        "frequency": 276
-      },
-      {
-        "text": "Benjamin Koch Jr.",
-        "frequency": 918
-      },
-      {
-        "text": "Vince Schmidt II",
-        "frequency": 782
-      },
-      {
-        "text": "Camille Sanford III",
-        "frequency": 800
-      },
-      {
-        "text": "Maudie Graham",
-        "frequency": 716
-      },
-      {
-        "text": "Heloise Hauck",
-        "frequency": 664
-      },
-      {
-        "text": "Ms. Nickolas Wuckert",
-        "frequency": 858
-      },
-      {
-        "text": "Noe Bosco",
-        "frequency": 756
-      },
-      {
-        "text": "Arjun Schinner",
-        "frequency": 350
-      },
-      {
-        "text": "Adrain Strosin MD",
-        "frequency": 278
-      },
-      {
-        "text": "Hertha Koch",
-        "frequency": 550
-      },
-      {
-        "text": "Julie Kassulke IV",
-        "frequency": 350
-      },
-      {
-        "text": "Clint Medhurst V",
-        "frequency": 563
-      },
-      {
-        "text": "Kris Stiedemann IV",
-        "frequency": 979
-      },
-      {
-        "text": "Grant Champlin MD",
-        "frequency": 71
-      },
-      {
-        "text": "Virgie Bahringer",
-        "frequency": 209
-      },
-      {
-        "text": "Cheyenne Leannon",
-        "frequency": 889
-      },
-      {
-        "text": "Marisa Beer",
-        "frequency": 470
-      },
-      {
-        "text": "Jasen Wintheiser",
-        "frequency": 264
-      },
-      {
-        "text": "Devan Batz",
-        "frequency": 674
-      },
-      {
-        "text": "Estell Tremblay",
-        "frequency": 705
-      },
-      {
-        "text": "Wendell Kreiger",
-        "frequency": 914
-      },
-      {
-        "text": "Emilia Renner",
-        "frequency": 644
-      }
-    ]
-
+﻿[
+	{
+		"text": "Yetta C. Chavez",
+		"frequency": 6067
+	},
+	{
+		"text": "Phillip Q. Owens",
+		"frequency": 8740
+	},
+	{
+		"text": "Ursa N. Mcintyre",
+		"frequency": 7783
+	},
+	{
+		"text": "Prescott C. Mercer",
+		"frequency": 6822
+	},
+	{
+		"text": "Deacon E. Herring",
+		"frequency": 5408
+	},
+	{
+		"text": "Merrill J. Skinner",
+		"frequency": 6057
+	},
+	{
+		"text": "Idona Z. Maynard",
+		"frequency": 9282
+	},
+	{
+		"text": "Denise W. Austin",
+		"frequency": 8364
+	},
+	{
+		"text": "Palmer L. Johnston",
+		"frequency": 8013
+	},
+	{
+		"text": "Shay P. Mills",
+		"frequency": 7924
+	},
+	{
+		"text": "Adena A. Holman",
+		"frequency": 7880
+	},
+	{
+		"text": "Iliana Y. Brown",
+		"frequency": 6161
+	},
+	{
+		"text": "Quemby G. Riddle",
+		"frequency": 9630
+	},
+	{
+		"text": "August L. Hodge",
+		"frequency": 7168
+	},
+	{
+		"text": "Ursa U. Crawford",
+		"frequency": 9607
+	},
+	{
+		"text": "Rhonda A. Patrick",
+		"frequency": 8789
+	},
+	{
+		"text": "Norman H. Taylor",
+		"frequency": 8873
+	},
+	{
+		"text": "Irene V. Morrow",
+		"frequency": 9461
+	},
+	{
+		"text": "Farrah K. Chen",
+		"frequency": 8405
+	},
+	{
+		"text": "Candice Z. Graham",
+		"frequency": 9678
+	},
+	{
+		"text": "Ivan H. Macias",
+		"frequency": 6291
+	},
+	{
+		"text": "Guinevere G. Church",
+		"frequency": 6133
+	},
+	{
+		"text": "Bert T. Solis",
+		"frequency": 5508
+	},
+	{
+		"text": "Fallon K. Newton",
+		"frequency": 8828
+	},
+	{
+		"text": "Lavinia Y. Gilmore",
+		"frequency": 6756
+	},
+	{
+		"text": "Dominique M. Rosario",
+		"frequency": 7678
+	},
+	{
+		"text": "Abra D. Chan",
+		"frequency": 8479
+	},
+	{
+		"text": "Lucy U. Jefferson",
+		"frequency": 6897
+	},
+	{
+		"text": "Preston N. Foreman",
+		"frequency": 5908
+	},
+	{
+		"text": "Barbara O. Hinton",
+		"frequency": 5914
+	},
+	{
+		"text": "Ivan V. Edwards",
+		"frequency": 8772
+	},
+	{
+		"text": "Illiana K. Kirkland",
+		"frequency": 10000
+	},
+	{
+		"text": "Ava Z. Wiggins",
+		"frequency": 6289
+	},
+	{
+		"text": "Roanna R. Rodriquez",
+		"frequency": 6613
+	},
+	{
+		"text": "Adria B. Gill",
+		"frequency": 5547
+	},
+	{
+		"text": "Quyn F. Le",
+		"frequency": 5418
+	},
+	{
+		"text": "Sydnee H. Jacobson",
+		"frequency": 5448
+	},
+	{
+		"text": "Ishmael L. Hickman",
+		"frequency": 8553
+	},
+	{
+		"text": "Ima R. Cantrell",
+		"frequency": 8151
+	},
+	{
+		"text": "Jamalia C. Eaton",
+		"frequency": 8991
+	},
+	{
+		"text": "Kaden Z. Valentine",
+		"frequency": 8881
+	},
+	{
+		"text": "Allegra K. Riddle",
+		"frequency": 6617
+	},
+	{
+		"text": "Elizabeth Y. Cleveland",
+		"frequency": 5522
+	},
+	{
+		"text": "Connor R. Meyer",
+		"frequency": 6184
+	},
+	{
+		"text": "Abigail D. Oneill",
+		"frequency": 8366
+	},
+	{
+		"text": "Levi F. Webb",
+		"frequency": 8791
+	},
+	{
+		"text": "Nissim E. Doyle",
+		"frequency": 6272
+	},
+	{
+		"text": "Giacomo Y. Chase",
+		"frequency": 9809
+	},
+	{
+		"text": "Naida P. Pittman",
+		"frequency": 5583
+	},
+	{
+		"text": "Sage K. Shepherd",
+		"frequency": 9289
+	},
+	{
+		"text": "Octavia Z. Forbes",
+		"frequency": 5870
+	},
+	{
+		"text": "Jenette N. Norman",
+		"frequency": 5331
+	},
+	{
+		"text": "Beverly C. Hardy",
+		"frequency": 7505
+	},
+	{
+		"text": "Harrison O. Bishop",
+		"frequency": 7865
+	},
+	{
+		"text": "Tanya B. Stuart",
+		"frequency": 5263
+	},
+	{
+		"text": "Xena A. Morse",
+		"frequency": 5906
+	},
+	{
+		"text": "Tatum Q. Middleton",
+		"frequency": 5160
+	},
+	{
+		"text": "Hollee S. Brooks",
+		"frequency": 7168
+	},
+	{
+		"text": "Kerry D. Donaldson",
+		"frequency": 7595
+	},
+	{
+		"text": "Ashton U. Kerr",
+		"frequency": 6324
+	},
+	{
+		"text": "John M. Pearson",
+		"frequency": 7875
+	},
+	{
+		"text": "Solomon O. Winters",
+		"frequency": 6597
+	},
+	{
+		"text": "Adena D. Donaldson",
+		"frequency": 5275
+	},
+	{
+		"text": "Abbot M. Pace",
+		"frequency": 9273
+	},
+	{
+		"text": "Lamar S. Swanson",
+		"frequency": 5302
+	},
+	{
+		"text": "Bethany R. Roach",
+		"frequency": 9151
+	},
+	{
+		"text": "Kellie O. Larson",
+		"frequency": 9486
+	},
+	{
+		"text": "Stephen R. Ashley",
+		"frequency": 6178
+	},
+	{
+		"text": "Avram I. Aguilar",
+		"frequency": 5346
+	},
+	{
+		"text": "Marshall V. Robinson",
+		"frequency": 9735
+	},
+	{
+		"text": "Hamish A. Sexton",
+		"frequency": 5032
+	},
+	{
+		"text": "Yvonne D. Cameron",
+		"frequency": 7235
+	},
+	{
+		"text": "Martina U. Barrett",
+		"frequency": 9793
+	},
+	{
+		"text": "Kellie X. Ramirez",
+		"frequency": 6307
+	},
+	{
+		"text": "Sage V. Gilbert",
+		"frequency": 5963
+	},
+	{
+		"text": "Rhoda N. Flores",
+		"frequency": 5651
+	},
+	{
+		"text": "Asher E. Olson",
+		"frequency": 6781
+	},
+	{
+		"text": "Phelan I. Dunn",
+		"frequency": 5543
+	},
+	{
+		"text": "Selma X. Newton",
+		"frequency": 5241
+	},
+	{
+		"text": "Adrian O. Lindsey",
+		"frequency": 8563
+	},
+	{
+		"text": "Shad S. Hines",
+		"frequency": 6497
+	},
+	{
+		"text": "Holly U. Chan",
+		"frequency": 6097
+	},
+	{
+		"text": "Cathleen K. Harmon",
+		"frequency": 9010
+	},
+	{
+		"text": "Heidi C. Summers",
+		"frequency": 6500
+	},
+	{
+		"text": "Brynne E. Mccall",
+		"frequency": 7500
+	},
+	{
+		"text": "Lionel E. Mccray",
+		"frequency": 7393
+	},
+	{
+		"text": "Cruz K. Osborne",
+		"frequency": 9288
+	},
+	{
+		"text": "Curran H. Patton",
+		"frequency": 9637
+	},
+	{
+		"text": "Lars J. Ware",
+		"frequency": 8883
+	},
+	{
+		"text": "Zachary B. Aguirre",
+		"frequency": 8008
+	},
+	{
+		"text": "Zorita V. Guy",
+		"frequency": 8126
+	},
+	{
+		"text": "Ferdinand Y. England",
+		"frequency": 8613
+	},
+	{
+		"text": "Rudyard U. Gonzales",
+		"frequency": 8075
+	},
+	{
+		"text": "Yoshio K. Blair",
+		"frequency": 7898
+	},
+	{
+		"text": "Roary K. Wood",
+		"frequency": 6363
+	},
+	{
+		"text": "Nita O. Summers",
+		"frequency": 9394
+	},
+	{
+		"text": "Janna Q. Stephenson",
+		"frequency": 7242
+	},
+	{
+		"text": "Christen J. Henson",
+		"frequency": 7016
+	},
+	{
+		"text": "Aretha U. Merrill",
+		"frequency": 7663
+	},
+	{
+		"text": "Harlan C. Deleon",
+		"frequency": 9348
+	}
+]
