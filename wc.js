@@ -1,4 +1,4 @@
-﻿var keywords = ["Shanelle Kulas", "Alfredo Boehm", "Nathan Lowe III", "London Prosacco", "Miss Cecelia Rodriguez", "Ronny Anderson", "Devan Jaskolski", "Devan Jaskolski", "Freddy Kreiger", "Aric Heathcote", "Bradley Sanford Sr."];
+﻿var keywords = ["Miss Sunny Bogisich", "Aurelia Payne", "Celina Lowe", "Janell Mclaughlin", "Stone Kline", "Adena A. Holman", "Miss Cecelia Rodriguez", "Ursa U. Crawford", "Haynes Witt", "Sykes Parrish", "Bates Acosta", "Ryan Lindsay", "Devan Jaskolski", "Freddy Kreiger", "Aric Heathcote", "Bradley Sanford Sr."];
 //var randomRotate = d3.scale.linear().domain([0, 1]).range([-20, 20]);
 
 var h = window.innerHeight-100,
@@ -13,11 +13,11 @@ var drawCloud = function (jsonFileNo) {
         var max = d3.max(data, function (d) { return d.frequency; });
 
         var dataLength = data.length;
-        var rangeMax = w / (dataLength);
+        var rangeMax = w / (dataLength*.9);
         
         var wordScale = d3.scale.linear().domain([min, max]).range([6, rangeMax < 14 ? 14: rangeMax]).nice().clamp(true);
 
-        var opacityScale = d3.scale.linear().domain([min, max]).range([0, 1]);
+        var opacityScale = d3.scale.linear().domain([min, max]).range([.5, 1]);
        
 
         // Draw the word cloud
@@ -105,16 +105,15 @@ var drawCloud = function (jsonFileNo) {
                     window.open("https://www.google.com.au/search?q=" + d.text);
                 });
 
-                //Entering and existing words
+                //animation when cloud loading
                 cloud.transition()
                     .duration(600)
-                    .style("font-size", function (d) { return  wordScale(d.frequency) + "px"; })
+                    //.style("font-size", function (d) { return  wordScale(d.frequency) + "px"; })
                     .attr("transform", function (d) {
-                        return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
+                        return "translate(" + [d.x*1.2, d.y*1.2] + ")rotate(" + d.rotate + ")";
                     })
                     .style("fill-opacity", 1);
-
-                //Exiting words
+                //exit animation
                 cloud.exit()
                     .transition()
                     .duration(100)
@@ -129,13 +128,11 @@ var drawCloud = function (jsonFileNo) {
             //.spiral('rectangular')
             .words(data)
             .padding(1)
-            
             //.rotate(function (d) { return d.text.length > 12 ? 0 : 90; })
             .rotate(0)
             //.font("Impact")
             .text(function (d) { return d.text;})
             .fontSize(function (d) { return wordScale(d.frequency); })
-            
             .on("end", draw)
             .start();
     });
