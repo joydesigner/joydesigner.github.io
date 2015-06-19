@@ -13,9 +13,13 @@ var drawCloud = function (jsonFileNo) {
         var max = d3.max(data, function (d) { return d.frequency; });
 
         var dataLength = data.length;
-        var rangeMax = w / (dataLength * .9);
+        var ratio = dataLength < 101 ? 1.08 : .99;
+        var scaleRatio = Math.pow(ratio, Math.log(dataLength));
+        var translateRatio = Math.pow(ratio, Math.log(dataLength));
 
-        var wordScale = d3.scale.linear().domain([min, max]).range([6, rangeMax < 14 ? 14 : rangeMax]).nice().clamp(true);
+        var rangeMax = w * scaleRatio / dataLength;
+
+        var wordScale = d3.scale.linear().domain([min, max]).range([10, rangeMax < 14 ? 14 : rangeMax]).nice().clamp(true);
 
         var opacityScale = d3.scale.linear().domain([min, max]).range([.5, 1]);
 
@@ -118,7 +122,7 @@ var drawCloud = function (jsonFileNo) {
                 .duration(600)
                 //.style("font-size", function (d) { return  wordScale(d.frequency) + "px"; })
                 .attr("transform", function (d) {
-                    return "translate(" + [d.x * 1.2, d.y * 1.2] + ")rotate(" + d.rotate + ")";
+                    return "translate(" + [d.x * ratio, d.y * ratio] + ")rotate(" + d.rotate + ")";
                 })
                 .style("fill-opacity", 1);
             //exit animation
