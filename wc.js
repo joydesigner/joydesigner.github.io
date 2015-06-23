@@ -9,8 +9,12 @@ var h = window.innerHeight - 100,
 //var fill = d3.scale.category20();
 var drawCloud = function (jsonFileNo) {
     d3.json("data/data" + jsonFileNo + ".json", function (data) {
-        var min = d3.min(data, function (d) { return d.frequency; });
-        var max = d3.max(data, function (d) { return d.frequency; });
+
+        var extent = d3.extent(data, function(d) { return d.frequency; });
+        var textColor = 'black';
+
+        // var min = d3.min(data, function (d) { return d.frequency; });
+        // var max = d3.max(data, function (d) { return d.frequency; });
 
         var dataLength = data.length;
         var ratio = dataLength < 101 ? 1.08 : .99;
@@ -19,9 +23,9 @@ var drawCloud = function (jsonFileNo) {
 
         var rangeMax = w * scaleRatio / dataLength;
 
-        var wordScale = d3.scale.linear().domain([min, max]).range([10, rangeMax < 14 ? 14 : rangeMax]).nice().clamp(true);
+        var wordScale = d3.scale.linear().domain(extent).range([10, rangeMax < 14 ? 14 : rangeMax]).clamp(true);
 
-        var opacityScale = d3.scale.linear().domain([min, max]).range([.5, 1]);
+        var opacityScale = d3.scale.linear().domain(extent).range([.5, 1]);
 
         var orgList = data.map(function (d) { return d.org; });
 
@@ -29,13 +33,14 @@ var drawCloud = function (jsonFileNo) {
 
         var cScale = d3.scale.category10().domain(orgNames);
 
+        var tempColor = 'black';
+
         data.forEach(function (d) {
             d.t = cScale(d.org);
         });
         // Draw the word cloud
         var draw = function (words) {
             //zoom function
-
             var zoom = d3.behavior.zoom()
                         .scaleExtent([1, 10])
                         .on("zoom", function () {
@@ -57,7 +62,7 @@ var drawCloud = function (jsonFileNo) {
 
 
             var cloud = svg.selectAll("#textContainer text")
-                        .data(words, function (d) { return d.text; });
+                           .data(words, function (d) { return d.text; });
 
             var drag = d3.behavior.drag()
                         .on('dragstart', function () {
@@ -85,7 +90,6 @@ var drawCloud = function (jsonFileNo) {
                 })
                 .style("opacity", function (d) { return opacityScale(d.frequency); })
                 .text(function (d) { return d.text; })
-                .call(drag)
                 .on('mouseover', function (d, i) {
                     tempColor = this.style.fill;
                     //tooltip.transition().style('opacity', .9);
@@ -115,14 +119,15 @@ var drawCloud = function (jsonFileNo) {
                         .duration(200)
                         .style('fill', tempColor);
                     window.open("https://www.google.com.au/search?q=" + d.text);
-                });
+                })
+                .call(drag);
 
             //animation when cloud loading
             cloud.transition()
                 .duration(600)
                 //.style("font-size", function (d) { return  wordScale(d.frequency) + "px"; })
                 .attr("transform", function (d) {
-                    return "translate(" + [d.x * ratio, d.y * ratio] + ")rotate(" + d.rotate + ")";
+                    return "translate(" + [d.x * translateRatio, d.y * translateRatio] + ")";
                 })
                 .style("fill-opacity", 1);
             //exit animation
@@ -143,7 +148,7 @@ var drawCloud = function (jsonFileNo) {
             //.rotate(function (d) { return d.text.length > 12 ? 0 : 90; })
             .rotate(0)
             //.font("Impact")
-            .text(function (d) { return d.text; })
+            // .text(function (d) { return d.text; })
             .fontSize(function (d) { return wordScale(d.frequency); })
             .on("end", draw)
             .start();
@@ -162,11 +167,10 @@ var updateCloud = function () {
     svg.remove();
 
     drawCloud(numOfWords);
-    $("body").append("<div class='text-size'></div>");
 }
 
 var clearWC = function () {
     var svg = d3.selectAll("#wc");
     svg.remove();
-    $('.text-size').remove();
+    // $('.text-size').remove();
 };
