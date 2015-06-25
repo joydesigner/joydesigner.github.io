@@ -138,8 +138,10 @@ var drawCloud = function (jsonFileNo) {
                 .attr('font-size', 1)
                 .remove();
         };
+
+        debugger;
         var leaders = data.filter(function(d) { return +d.frequency > 0; })
-                            .map(function(d) {return { text: d.text, frequency: d.frequency }; )
+                            .map(function(d) { return { text: d.text, frequency: +d.frequency };})
                             .sort(function(a, b) { return d3.descending( a.size, b.size); })
                             .slice(0,100);
         var wordCloud = d3.layout.cloud().size([w, h])
