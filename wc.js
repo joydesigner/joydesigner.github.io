@@ -138,12 +138,15 @@ var drawCloud = function (jsonFileNo) {
                 .attr('font-size', 1)
                 .remove();
         };
-
+        var leaders = data.filter(function(d) { return +d.frequency > 0; })
+                            .map(function(d) {return { text: d.text, frequency: d.frequency }; )
+                            .sort(function(a, b) { return d3.descending( a.size, b.size); })
+                            .slice(0,100);
         var wordCloud = d3.layout.cloud().size([w, h])
             .timeInterval(10)
             .spiral("archimedean")
             //.spiral('rectangular')
-            .words(data)
+            .words(leaders)
             .padding(1)
             //.rotate(function (d) { return d.text.length > 12 ? 0 : 90; })
             .rotate(0)
