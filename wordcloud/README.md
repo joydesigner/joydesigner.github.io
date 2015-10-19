@@ -1,3 +1,0 @@
-Word Cloud - Demo Version
-
-
